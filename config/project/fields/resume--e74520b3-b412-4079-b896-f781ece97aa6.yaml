@@ -1,0 +1,33 @@
+contentColumnType: string
+fieldGroup: 473119d7-85bb-4c39-8c2d-387455d11eaa
+handle: resume
+instructions: ''
+name: Resume
+searchable: false
+settings:
+  allowSelfRelations: false
+  allowUploads: true
+  allowedKinds:
+    - pdf
+  defaultUploadLocationSource: 'volume:6af71f05-7484-435b-9634-d8dc29865234'
+  defaultUploadLocationSubpath: ''
+  limit: '1'
+  localizeRelations: false
+  previewMode: full
+  restrictFiles: '1'
+  selectionLabel: ''
+  showSiteMenu: true
+  showUnpermittedFiles: false
+  showUnpermittedVolumes: false
+  singleUploadLocationSource: 'volume:6af71f05-7484-435b-9634-d8dc29865234'
+  singleUploadLocationSubpath: ''
+  source: null
+  sources:
+    - 'volume:6af71f05-7484-435b-9634-d8dc29865234'
+  targetSiteId: null
+  useSingleFolder: false
+  validateRelatedElements: false
+  viewMode: list
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Assets

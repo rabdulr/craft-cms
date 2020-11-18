@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: bcfde695-7871-4581-9215-e80c49a27188
+handle: experience
+instructions: 'Create list of work experiences'
+name: Experience
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_experience}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

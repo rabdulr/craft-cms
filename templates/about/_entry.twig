@@ -1,0 +1,43 @@
+    <!-- about
+    ================================================== -->
+    {% set about = craft.entries.section('about').one() %}
+        <div class="row narrow section-intro has-bottom-sep">
+            <div class="col-full text-center">
+                <h3>{{ about.title }}</h3>
+                <h1>{{ about.subtitle }}</h1>
+                <p class="lead"><blockquote cite="http://where-i-got-my-info-from.com">{{ about.quote }}</p>
+                <cite>
+                    <a href="#">{{ about.author }}</a>
+                </cite>
+                </blockquote>
+            </div>
+        </div>
+
+        <div class="row about-content">
+
+            <div class="col-six tab-full left">
+                <h3>{{ about.aboutWelcome }}!</h3>
+                {{ about.aboutCopy }}
+            </div>
+
+            <div class="col-six tab-full right">
+                <h3>I've Got Some skills.</h3>
+                <ul class="skill-bars">
+                {% for skill in about.skills %}
+                    <li>
+                    <div class="progress percent{{ skill.percentage }}"><span>{{ skill.percentage }}%</span></div>
+                    <strong>{{ skill.skillTitle }}</strong>
+                    </li>
+                {% endfor %}
+                </ul>
+            </div>
+
+        </div> <!-- end about-content -->
+
+        <div class="row about-content about-content--buttons">
+
+            <div class="col-six tab-full right">
+                <a href=""{{ about.resume.one().url() }}"" class="btn btn--primary full-width">Download My CV</a>
+            </div>
+
+        </div> <!-- end about-content buttons -->

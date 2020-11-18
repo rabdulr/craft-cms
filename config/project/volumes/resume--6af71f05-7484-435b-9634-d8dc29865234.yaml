@@ -1,0 +1,38 @@
+fieldLayouts:
+  c503e9a4-5129-4fbf-97f6-f0d1b0a8665e:
+    tabs:
+      -
+        elements:
+          -
+            autocapitalize: true
+            autocomplete: false
+            autocorrect: true
+            class: null
+            disabled: false
+            id: null
+            instructions: null
+            label: null
+            max: null
+            min: null
+            name: null
+            orientation: null
+            placeholder: null
+            readonly: false
+            requirable: false
+            size: null
+            step: null
+            tip: null
+            title: null
+            type: craft\fieldlayoutelements\TitleField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+handle: resume
+hasUrls: true
+name: Resume
+settings:
+  path: '@webroot/resume'
+sortOrder: 1
+type: craft\volumes\Local
+url: '@web/resume'

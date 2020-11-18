@@ -1,0 +1,11 @@
+enableVersioning: true
+handle: workExperience
+name: 'Work Experience'
+propagationMethod: all
+siteSettings:
+  667cb511-30fb-4ebb-a5d5-15092478136b:
+    enabledByDefault: true
+    hasUrls: true
+    template: work_experience/_entry
+    uriFormat: work-experience
+type: single

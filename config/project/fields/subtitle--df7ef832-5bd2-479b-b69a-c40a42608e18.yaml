@@ -1,0 +1,18 @@
+contentColumnType: text
+fieldGroup: 473119d7-85bb-4c39-8c2d-387455d11eaa
+handle: subtitle
+instructions: 'Subtitle about the section'
+name: Subtitle
+searchable: false
+settings:
+  byteLimit: null
+  charLimit: null
+  code: ''
+  columnType: null
+  initialRows: '4'
+  multiline: ''
+  placeholder: ''
+  uiMode: normal
+translationKeyFormat: null
+translationMethod: none
+type: craft\fields\PlainText

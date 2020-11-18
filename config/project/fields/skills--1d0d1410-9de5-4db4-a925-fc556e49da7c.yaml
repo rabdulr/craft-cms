@@ -1,0 +1,14 @@
+contentColumnType: string
+fieldGroup: 473119d7-85bb-4c39-8c2d-387455d11eaa
+handle: skills
+instructions: 'List the number of skills with percentage of confidence'
+name: Skills
+searchable: false
+settings:
+  contentTable: '{{%matrixcontent_skills}}'
+  maxBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+translationKeyFormat: null
+translationMethod: site
+type: craft\fields\Matrix

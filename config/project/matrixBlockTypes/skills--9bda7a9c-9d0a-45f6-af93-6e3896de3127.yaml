@@ -1,0 +1,68 @@
+field: 1d0d1410-9de5-4db4-a925-fc556e49da7c
+fieldLayouts:
+  2ebd5097-e3a8-4e13-8c06-b8ddbdaca8d4:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: a996a5bf-24fe-4396-91e6-5d5fe8695931
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: 6b878994-d581-4c95-8f8e-af4992ff7b78
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  6b878994-d581-4c95-8f8e-af4992ff7b78:
+    contentColumnType: text
+    fieldGroup: null
+    handle: percentage
+    instructions: 'Percentage of confidence in skill'
+    name: Percentage
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+  a996a5bf-24fe-4396-91e6-5d5fe8695931:
+    contentColumnType: text
+    fieldGroup: null
+    handle: skillTitle
+    instructions: 'Title of the skill'
+    name: 'Skill Title'
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: ''
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: skills
+name: Skills
+sortOrder: 1
